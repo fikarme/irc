@@ -1,3 +1,5 @@
+https://simple.wikipedia.org/wiki/List_of_Internet_Relay_Chat_commands
+
 https://reactive.so/post/42-a-comprehensive-guide-to-ft_irc/
 
 https://ircv3.net/irc/
