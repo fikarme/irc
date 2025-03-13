@@ -1,3 +1,7 @@
+https://reactive.so/post/42-a-comprehensive-guide-to-ft_irc/
+
+https://ircv3.net/irc/
+
 https://medium.com/@afatir.ahmedfatir/small-irc-server-ft-irc-42-network-7cee848de6f9
 
 https://medium.com/@talhadmr/ft-irc-server-92ffcd1d4338
@@ -6,11 +10,9 @@ https://modern.ircdocs.horse/
 
 https://datatracker.ietf.org/doc/html/rfc2812
 
-https://datatracker.ietf.org/doc/html/rfc2813
-
 https://chi.cs.uchicago.edu/chirc/index.html
 
-https://chi.cs.uchicago.edu/chirc/irc.html?source=post_page-----7415dca58bad--------------------------------
+https://chi.cs.uchicago.edu/chirc/irc.html
 
 https://chi.cs.uchicago.edu/chirc/irc_examples.html#chirc-irc-examples
 
