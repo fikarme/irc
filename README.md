@@ -4,6 +4,8 @@ https://www.inspircd.org/
 
 liberachat ##turkey
 
+https://www.ircrehberi.net/
+
 ----
 
 https://simple.wikipedia.org/wiki/List_of_Internet_Relay_Chat_commands
