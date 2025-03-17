@@ -6,6 +6,8 @@
 #include <unistd.h>
 #include <iostream>
 #include <cstring>
+using std::cout;
+using std::endl;
 
 int main(){
     int server_fd, client_fd;
@@ -25,6 +27,7 @@ int main(){
     memset(&server_addr, 0, sizeof(server_addr)); // Set up the server address struct
     server_addr.sin_family = AF_INET;			// Set the address family to IPv4
     server_addr.sin_addr.s_addr = INADDR_ANY; // Bind to all available interfaces
+	// server_addr.sin_addr.s_addr = inet_addr("127.0.0.1"); // Bind to localhost
     server_addr.sin_port = htons(port);		// Convert the port to network byte order
 
 	// Binding: The function bind(2) binds the created socket to a specific port and IP address,
@@ -44,7 +47,7 @@ int main(){
         return 1;
     }
 
-    std::cout << "Server listening on port " << port << std::endl;
+    cout << "Server listening on port " << port << endl;
 
 	// Accepting Connections: The accept(2) function waits for a client to connect.
 	// When a connection is established, it creates a new socket
@@ -56,7 +59,7 @@ int main(){
         return 1;
     }
 
-    std::cout << "Client connected" << std::endl;
+    cout << "Client connected" << endl;
 
 	// Reading Data: The read(2) function is used to read data from the client socket.
 	// It retrieves data sent by the client, which can then be processed by the server.
@@ -69,7 +72,7 @@ int main(){
     }
 
     buffer[bytes_read] = '\0'; // Null-terminate the buffer
-    std::cout << "Received message: " << buffer << std::endl;
+    cout << "Received message: " << buffer << endl;
 
     // Close the client and server sockets
     close(client_fd);
