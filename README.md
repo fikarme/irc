@@ -30,6 +30,7 @@
 - ensure that the msg is formatted correctly
 - PRVMSG?
 
+# Yorum
 - Soket yönetimi bir dinleme noktası oluşturup bağlayıp(binding)  dinlemekle başlar.
 - Bu soket istemcilerden gelen bağlantı isteklerini dinler.
 - Bağlantı kurulduktan sonra, sunucu istemciyle iletişim kurmak için başka bir soket kullanır.
@@ -43,6 +44,8 @@
 - +k
 - @ is it meaning op?
 
+
+# Linkler
 https://www.unrealircd.org/
 
 https://www.inspircd.org/
