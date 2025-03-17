@@ -1,3 +1,5 @@
+ip almaca: ipconfig getifaddr en0
+
 ls -l /usr/bin/cc /usr/bin/c++
 
 - ? Use ctrl+D to send the command in several parts: ’com’, then ’man’, then ’d\n’.
