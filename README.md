@@ -56,6 +56,16 @@ https://www.ircrehberi.net/
 
 ----
 
+https://www.tutorialspoint.com/unix_sockets/what_is_socket.htm
+
+https://www.tutorialspoint.com/unix_sockets/what_is_socket.htm
+
+https://www.tutorialspoint.com/unix_sockets/socket_core_functions.
+
+https://beej.us/guide/bgnet/html/
+
+----
+
 https://simple.wikipedia.org/wiki/List_of_Internet_Relay_Chat_commands
 
 https://reactive.so/post/42-a-comprehensive-guide-to-ft_irc/
