@@ -1,3 +1,5 @@
+ls -l /usr/bin/cc /usr/bin/c++
+
 - ? Use ctrl+D to send the command in several parts: ’com’, then ’man’, then ’d\n’.
 In order to process a command, you have to first aggregate the received packets in
 order to rebuild it.
