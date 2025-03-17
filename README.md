@@ -2,6 +2,7 @@
 - IRC is a simple and robust protocol built to host communities.
 - IRC is open to anyone. You can create a server or build a client.
 - IRC has four fundamental pillars: server, command parser, channels and the client(not the actual client that u will use).
+- """Clean code (e.g. all messages are created with the builder design pattern?)"""
 
 # Server
 - managing socket connections
