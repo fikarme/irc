@@ -1,8 +1,14 @@
+- ? Use ctrl+D to send the command in several parts: ’com’, then ’man’, then ’d\n’.
+In order to process a command, you have to first aggregate the received packets in
+order to rebuild it.
+- ? Clean code (e.g. all messages are created with the builder design pattern)
+
+---
+
 - This project contains!: Understanding bi-directional file-descriptor communication (aka sockets).
 - IRC is a simple and robust protocol built to host communities.
 - IRC is open to anyone. You can create a server or build a client.
 - IRC has four fundamental pillars: server, command parser, channels and the client(not the actual client that u will use).
-- """Clean code (e.g. all messages are created with the builder design pattern?)"""
 
 # Server
 - managing socket connections
