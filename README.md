@@ -1,3 +1,19 @@
+This project contains!: Understanding bi-directional file-descriptor communication (aka sockets).
+IRC is a simple and robust protocol built to host communities.
+IRC is open to anyone. You can create a server or build a client.
+IRC has four fundamental pillars: server, command parser, channels and the client(not the actual client that u will use).
+
+## Server:
+- managing socket connections
+- safeguarding variables like server password
+- realtime interactions with IRC network <-> clients
+
+Soket yönetimi bir dinleme noktası oluşturup bağlayıp(binding)  dinlemekle başlar.
+Bu soket istemcilerden gelen bağlantı isteklerini dinler.
+Bağlantı kurulduktan sonra, sunucu istemciyle iletişim kurmak için başka bir soket kullanır.
+Soketler şöyle yönetilir: soketi oluşturmak, bir bağlantı noktasına bağlamak, gelen bağlantıları dinlemek ve bu bağlantıları kabul etmek.
+Kabul edilen her bağlantı daha sonra yeni bir soket tarafından ele alınır ve birden fazla istemcinin sunucuyla eşzamanlı olarak etkileşime girmesine olanak tanır.
+
 https://www.unrealircd.org/
 
 https://www.inspircd.org/
