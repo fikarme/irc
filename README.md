@@ -1,3 +1,6 @@
+iki noktadan sonra araya tire geliyor
+subectde commadn d iki kez kontrol edilmiş, ama sadece birini kontrol ediyor
+
 ip almaca: ipconfig getifaddr en0
 
 ls -l /usr/bin/cc /usr/bin/c++
