@@ -60,6 +60,9 @@ order to rebuild it.
 
 
 # Linkler
+
+https://graceful-colby-ca0.notion.site/TCP-IP-Modeli-ve-OSI-Modeli-17097847c08a80b9ba30e68e199da6b8
+
 https://www.unrealircd.org/
 
 https://www.inspircd.org/
