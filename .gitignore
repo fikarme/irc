@@ -1,0 +1,8 @@
+ircserv
+*.o
+*.out
+.DS_Store
+.vscode
+akef
+valgrind.log
+Obj
